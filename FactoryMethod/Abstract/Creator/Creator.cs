@@ -1,6 +1,6 @@
-﻿using FactoryMethod.Product;
+﻿using FactoryMethod.Abstract.Product;
 
-namespace FactoryMethod.Creator
+namespace FactoryMethod.Abstract.Creator
 {
     abstract class Creator
     {

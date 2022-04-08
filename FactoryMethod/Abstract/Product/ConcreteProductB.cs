@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FactoryMethod.Product
+namespace FactoryMethod.Abstract.Product
 {
     class ConcreteProductB : IProduct
     {

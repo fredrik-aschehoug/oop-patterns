@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod.Product
+﻿namespace FactoryMethod.Abstract.Product
 {
     interface IProduct
     {

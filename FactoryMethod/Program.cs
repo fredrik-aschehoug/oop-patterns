@@ -1,4 +1,4 @@
-﻿using FactoryMethod.Creator;
+﻿using FactoryMethod.Abstract.Creator;
 
 namespace FactoryMethod
 {
@@ -6,8 +6,12 @@ namespace FactoryMethod
     {
         static void Main()
         {
-            var creator = new ConcreteCreatorA();
+            Creator creator = new ConcreteCreatorA();
             var product = creator.CreateProduct();
+            product.DoStuff();
+            
+            creator = new ConcreteCreatorB();
+            product = creator.CreateProduct();
             product.DoStuff();
         }
     }
